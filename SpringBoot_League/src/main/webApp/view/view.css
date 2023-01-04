@@ -1,0 +1,73 @@
+
+header{
+   text-align: center;
+    color:white;
+    font-size: 4rem;
+    width:100%
+}
+html{
+    background-image: url(images/kassadin_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: left;
+    color:white;
+    font-size: 3rem;
+    width:50%;
+
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+p{
+    text-align: left;
+    color:white;
+    font-size: 3rem;
+    width:50%;
+}
+main{
+    text-align: left;
+    color:white;
+    font-size: 1rem;
+}
+
+.nav-container
+{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+.main-nav
+{
+    border-bottom-style: solid;
+}
+
+.main-nav>div
+{
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+}
+
+.main-nav>div:hover
+{
+    background-color: white;
+}
+
+.main-nav>div>a
+{
+    color: black;
+    display: block;
+    height: 100%;
+    padding: 0.5em 0;
+    text-decoration: none;
+    width: 100%;
+}
